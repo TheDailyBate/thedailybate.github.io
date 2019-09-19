@@ -33,8 +33,6 @@ h3{
     text-justify: auto;
     column-rule-style: solid;
     column-rule-width: thin;
-    column-fill: auto;
-
 }
 .para{
     text-indent: 10%;
@@ -75,6 +73,8 @@ h3{
 }
 @media screen and (min-width: 650px) {
     .row{
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
         column-count: 2;
     }
      .media{
@@ -84,6 +84,8 @@ h3{
 }
 @media screen and (min-width: 800px) {
     .row{
+        -webkit-column-count: 3; /* Chrome, Safari, Opera */
+        -moz-column-count: 3; /* Firefox */
         column-count: 3;
     }
     .media{
@@ -93,6 +95,8 @@ h3{
 }
 @media screen and (min-width: 950px) {
     .row{
+        -webkit-column-count: 4; /* Chrome, Safari, Opera */
+        -moz-column-count: 4; /* Firefox */
         column-count: 4;
     }
     .media{
@@ -102,6 +106,8 @@ h3{
 }
 @media screen and (max-width: 649px) {
     .row{
+        -webkit-column-count: 1; /* Chrome, Safari, Opera */
+        -moz-column-count: 1; /* Firefox */
         column-count: 1;
     }
     .media{
