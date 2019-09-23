@@ -24,6 +24,9 @@ h3{
     font-weight:900 ;
     text-align: center;
 }
+h4{
+    text-align: left;
+}
 .pagebody{    
     
 }
@@ -59,7 +62,14 @@ h3{
   top: 0;
   width: 100%;
 }
-
+.ntv-img{
+    display: block;
+    height: auto;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 5px;
+}
 .title1{
     text-align: center;
     width: inherit;
@@ -70,6 +80,21 @@ h3{
     border-top: 2px solid #2f2f2f;
     padding: 12px 0 12px 0;
     
+}
+.homepageItem{
+    font-weight:bold;
+    margin-bottom: 5px;
+    list-style-type: none;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+.homepageItem:hover{
+    cursor: pointer;
+}
+.homepageDescription{
+    display:none;
 }
 @media screen and (min-width: 650px) {
     .row{
